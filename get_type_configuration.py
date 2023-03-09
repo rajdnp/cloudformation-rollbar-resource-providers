@@ -9,8 +9,8 @@ from botocore.exceptions import ClientError
 def get_secret():
     "Get the secret from secrets manager"
 
-    secret_name = "cep-rollbar-type-configuration"
-    region_name = os.environ['AWS_REGION']
+    secret_name = "rollbar-type-configuration"
+    region_name = "us-east-1"
     session = boto3.session.Session()
     client = session.client(
         service_name="secretsmanager",
