@@ -1,4 +1,4 @@
-"Get the Fastly secret from secrets manager and write it to ~/.cfn-cli/typeConfiguration.json. .rpdk-config files indicates what type configuration the contract tests are looking for"
+"Get the Rollbar secret from secrets manager and write it to ~/.cfn-cli/typeConfiguration.json. .rpdk-config files indicates what type configuration the contract tests are looking for"
 
 import boto3
 import base64
